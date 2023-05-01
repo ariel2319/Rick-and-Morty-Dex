@@ -25,10 +25,10 @@ const LocationsDetails = ({ location }) => {
             </div>
 
             <div className='card-panel teal lighten-4 shadow'>
-              <div className=''> <b>Residents: </b> {location?.residents?.length}</div>
-              <div className=''> <b>Dimension: </b> {location?.dimension} </div>
-              <div className=''> <b>Type: </b> {location?.type} </div>
-              <div className=''> <b>ID: </b> {location?.id} </div>
+              <div className=''> <b className='drop-shadow-black'> Residents: </b> {location?.residents?.length}</div>
+              <div className=''> <b className='drop-shadow-black'> Dimension: </b> {location?.dimension} </div>
+              <div className=''> <b className='drop-shadow-black'> Type: </b> {location?.type} </div>
+              <div className=''> <b className='drop-shadow-black'> ID: </b> {location?.id} </div>
             </div>
           </div>
       }
