@@ -26,6 +26,12 @@ body {
   filter: drop-shadow(3px 3px 1px rgba(29, 211, 13, 0.7));
 }
 
+.drop-shadow-black {
+  color: black;
+  filter: drop-shadow(3px 3px 1px rgba(29, 211, 13, 0.7));
+  font-size: 1.2rem;
+}
+
 input[type=text]:not(.browser-default) {
   background-color: rgba(255, 255, 255, 0.65);
   height: 2.3rem;
@@ -81,4 +87,11 @@ input[type=text]:not(.browser-default) {
   bottom: 0;
   width: 100%;
   z-index: 11;
+}
+
+.footer-copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
